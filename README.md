@@ -14,7 +14,7 @@
 ## # Installing
 ### 1) Copy Pseudoeffect.xml to /Support Files/PresetEffects.xml
 
-[![Aw-Tools 1](https://i.postimg.cc/wMx2VgsW/Aw-Tools.gif)](https://postimg.cc/0M375gnm)
+![Installing](GIF/Aw_Tools.gif)
 
 - Open the PresetEffects.xml file located in /Your_Version_Adobe/Support File/PresetEffects.xml
 - Open the Pseudoeffect.xml file in Zip
@@ -23,7 +23,7 @@
 
 ### 2) Copy Aw_Tools.jsx, Aw_Tools Folder, and Aw_Image to Script_UI Panel
 
-[![Aw-Tools 2](https://i.postimg.cc/FshWhtDF/Aw-Tools-2.gif)](https://postimg.cc/V5HBFVx2)
+![Installing_2](GIF/Aw_Tools 2.gif)
 
 - Copy Aw_Tools.jsx, Aw_Tools Folder, and Aw_Image to Script_UI Panel
 - Paste To ScriptUI_Panel
