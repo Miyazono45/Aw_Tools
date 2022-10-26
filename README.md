@@ -23,7 +23,7 @@
 
 ### 2) Copy Aw_Tools.jsx, Aw_Tools Folder, and Aw_Image to Script_UI Panel
 
-![Installing_2](GIF/Aw_Tools 2.gif)
+![Installing_2](GIF/Aw_Tools2.gif)
 
 - Copy Aw_Tools.jsx, Aw_Tools Folder, and Aw_Image to Script_UI Panel
 - Paste To ScriptUI_Panel
