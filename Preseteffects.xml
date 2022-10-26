@@ -1,0 +1,111 @@
+﻿<Effect matchname="Pseudo/A_Text" name="$$$/AE/Preset/YourCustomControlName=A_Text">
+    <Slider name="$$$/AE/Preset/CustomSliderName=Animation" default="0" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+    <Slider name="$$$/AE/Preset/CustomSliderName=Delay" default="5" valid_min="0" valid_max="100" precision="1"/>
+    <!--Transform Group -->
+    <Group name="$$$/AE/Preset/CustomGroupName=Transform Property">
+      <!--Anchor Point -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Anchor Point">
+	  	<Point name="$$$/AE/Preset/CustomPointName=Anchor Point" default_x="0" default_y="0"/>
+      </Group>
+      <!--Position -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Position">
+	  	<Point name="$$$/AE/Preset/CustomPointName=Position" default_x="0" default_y="0"/>
+      </Group>
+      <!--Scale -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Scale">
+        <Checkbox name="$$$/AE/Preset/CustomCheckboxName=Linked Scale" checked="true"/>
+        <!--Linked Scale -->
+        <Slider name="$$$/AE/Preset/CustomSliderName=Scale" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+        <!--Unlinked Scale -->
+        <Group name="$$$/AE/Preset/CustomGroupName=Scale XYZ">
+            <Slider name="$$$/AE/Preset/CustomSliderName=Scale X" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+            <Slider name="$$$/AE/Preset/CustomSliderName=Scale Y" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+        </Group>
+      </Group>
+      <!--Skew -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Skew">
+        <Angle name="$$$/AE/Preset/CustomAngleName=Skew" default="0"/>
+        <Angle name="$$$/AE/Preset/CustomAngleName=Skew Angle" default="0"/>
+      </Group>
+      <!--Rotation -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Rotation">
+        <Angle name="$$$/AE/Preset/CustomAngleName=Rotation" default="0"/>
+      </Group>
+      <!--Opacity -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Opacity" default="100" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+    </Group>
+
+    <!--Style Group -->
+    <Group name="$$$/AE/Preset/CustomGroupName=Other Property">
+      <!--Tracking -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Tracking" default="0" valid_min="-1000" valid_max="1000" precision="1"/>
+      <!--Tracking Type -->
+      <Popup name="$$$/AE/Preset/CustomPopupName=Tracking Type" default="1" popup_string="Before and After|Before|After" CANNOT_TIME_VARY="true"/>
+      <!--Line Anchor -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Line Anchor" default="0" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+      <!--Line Spacing -->
+      <Point name="$$$/AE/Preset/CustomPointName=Line Spacing" default_x="0" default_y="0"/>
+      <!--Character Value -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Character Value" default="0" valid_min="0" valid_max="500" />
+      <!--Character Offset -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Character Offset" default="0" valid_min="-500" valid_max="500" />
+      <!--Blur -->
+      <Point name="$$$/AE/Preset/CustomPointName=Blur" default_x="0" default_y="0"/>
+    </Group>
+  </Effect>
+	
+	<Effect matchname="Pseudo/A_Text3D" name="$$$/AE/Preset/YourCustomControlName=A_Text3D">
+    <Slider name="$$$/AE/Preset/CustomSliderName=Animation" default="0" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+    <Slider name="$$$/AE/Preset/CustomSliderName=Delay" default="5" valid_min="0" valid_max="100" precision="1"/>
+    <!--Transform Group -->
+    <Group name="$$$/AE/Preset/CustomGroupName=Transform Property">
+      <!--Anchor Point -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Anchor Point">
+        <Point3D name="$$$/AE/Preset/Custom3DPoint=Anchor Point" default_x="0" default_y="0" default_z="0"/>
+      </Group>
+      <!--Position -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Position">
+        <Point3D name="$$$/AE/Preset/Custom3DPoint=Position" default_x="0" default_y="0" default_z="0"/>
+      </Group>
+      <!--Scale -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Scale">
+        <Checkbox name="$$$/AE/Preset/CustomCheckboxName=Linked Scale" checked="true"/>
+        <!--Linked Scale -->
+        <Slider name="$$$/AE/Preset/CustomSliderName=Scale" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+        <!--Unlinked Scale -->
+        <Group name="$$$/AE/Preset/CustomGroupName=Scale XYZ">
+            <Slider name="$$$/AE/Preset/CustomSliderName=Scale X" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+            <Slider name="$$$/AE/Preset/CustomSliderName=Scale Y" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+        </Group>
+      </Group>
+      <!--Skew -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Skew">
+        <Angle name="$$$/AE/Preset/CustomAngleName=Skew" default="0"/>
+        <Angle name="$$$/AE/Preset/CustomAngleName=Skew Angle" default="0"/>
+      </Group>
+      <!--Rotation -->
+      <Group name="$$$/AE/Preset/CustomGroupName=Rotation">
+        <Angle name="$$$/AE/Preset/CustomAngleName=Rotation" default="0"/>
+      </Group>
+      <!--Opacity -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Opacity" default="100" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+    </Group>
+
+    <!--Style Group -->
+    <Group name="$$$/AE/Preset/CustomGroupName=Other Property">
+      <!--Tracking -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Tracking" default="0" valid_min="-1000" valid_max="1000" precision="1"/>
+      <!--Tracking Type -->
+      <Popup name="$$$/AE/Preset/CustomPopupName=Tracking Type" default="1" popup_string="Before and After|Before|After" CANNOT_TIME_VARY="true"/>
+      <!--Line Anchor -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Line Anchor" default="0" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+      <!--Line Spacing -->
+      <Point name="$$$/AE/Preset/CustomPointName=Line Spacing" default_x="0" default_y="0"/>
+      <!--Character Value -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Character Value" default="0" valid_min="0" valid_max="500" />
+      <!--Character Offset -->
+      <Slider name="$$$/AE/Preset/CustomSliderName=Character Offset" default="0" valid_min="-500" valid_max="500" />
+      <!--Blur -->
+      <Point name="$$$/AE/Preset/CustomPointName=Blur" default_x="0" default_y="0"/>
+    </Group>
+  </Effect>
