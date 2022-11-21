@@ -1,5 +1,5 @@
 ﻿<Effect matchname="Pseudo/A_Text" name="$$$/AE/Preset/YourCustomControlName=A_Text">
-    <Slider name="$$$/AE/Preset/CustomSliderName=Animation" default="0" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+    <Slider name="$$$/AE/Preset/CustomSliderName=Animation" default="0" valid_min="-200" valid_max="200" precision="1" DISPLAY_PERCENT="true"/>
     <Slider name="$$$/AE/Preset/CustomSliderName=Delay" default="5" valid_min="0" valid_max="100" precision="1"/>
     <!--Transform Group -->
     <Group name="$$$/AE/Preset/CustomGroupName=Transform Property">
@@ -55,7 +55,7 @@
   </Effect>
 	
 	<Effect matchname="Pseudo/A_Text3D" name="$$$/AE/Preset/YourCustomControlName=A_Text3D">
-    <Slider name="$$$/AE/Preset/CustomSliderName=Animation" default="0" valid_min="0" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+    <Slider name="$$$/AE/Preset/CustomSliderName=Animation" default="0" valid_min="-200" valid_max="200" precision="1" DISPLAY_PERCENT="true"/>
     <Slider name="$$$/AE/Preset/CustomSliderName=Delay" default="5" valid_min="0" valid_max="100" precision="1"/>
     <!--Transform Group -->
     <Group name="$$$/AE/Preset/CustomGroupName=Transform Property">
