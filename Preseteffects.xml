@@ -76,6 +76,7 @@
         <Group name="$$$/AE/Preset/CustomGroupName=Scale XYZ">
             <Slider name="$$$/AE/Preset/CustomSliderName=Scale X" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
             <Slider name="$$$/AE/Preset/CustomSliderName=Scale Y" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
+	    <Slider name="$$$/AE/Preset/CustomSliderName=Scale Z" default="100" valid_min="-100" valid_max="100" precision="1" DISPLAY_PERCENT="true"/>
         </Group>
       </Group>
       <!--Skew -->
